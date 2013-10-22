@@ -1,0 +1,13 @@
+[
+    {
+        "caption": "Code Review: Get Review Comments",
+        "command": "get_review_comments"
+    },
+    {
+        "caption": "Preferences: Code Review - Default",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/Code Review/Base File.sublime-settings"
+        }
+    }
+]
