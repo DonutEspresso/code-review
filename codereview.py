@@ -63,7 +63,7 @@ for comment in comments:
         outputStr += line + "\n"
 
 
-f = open('review_comments_' + filename, 'w')
+f = open('review_comments_' + filename + '.txt', 'w')
 f.write(outputStr) # python will convert \n to os.linesep
 f.close() # you can omit in most cases as the destructor will call if
 
